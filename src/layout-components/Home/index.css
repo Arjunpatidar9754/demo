@@ -1,0 +1,63 @@
+.paper{
+    background-color: rgb(250, 189, 174);
+}
+.paper:hover{
+    background-color: rgb(253, 160, 117);
+}
+.paper h2 {
+    padding-top: 30px;
+    color: #010d3d;
+}
+.paper p {
+    padding: 20px 40px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    opacity: 0.80;
+}
+.courseBg {
+    background-image: linear-gradient(to right, rgb(81, 252, 252), pink, rgb(81, 252, 252));
+    border-radius: 50px;
+}
+.courseBg h1 {
+    text-transform: uppercase;
+    font-style: oblique;
+    font-weight: bold;
+}
+.home_intro h3 {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10%;
+    font-style: oblique;
+}
+.home_intro h1 {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 0%;
+    font-size: 3em;
+    font-style: italic;
+    font-weight: bold;
+    color: coral;
+}
+.home_intro p {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 0%;
+    font-size: 1.5em;
+}
+.home_intro h1 b {
+    font-family: fantasy !important;
+    font-style: normal !important;
+    color: rgb(3, 3, 109);
+}
+.home_intro img {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+@media screen and (max-width: 480px) {
+    .paper p {
+        padding-right: 45px;
+        
+    }
+}
