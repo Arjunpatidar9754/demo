@@ -1,8 +1,7 @@
 {
   "name": "client",
   "version": "1.0.0",
-  "title": "lamp learning",
-  
+  "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.27",
     "@fortawesome/free-brands-svg-icons": "5.12.1",
@@ -14,8 +13,10 @@
     "@material-ui/lab": "4.0.0-alpha.42",
     "@uiw/react-codemirror": "^3.2.1",
     "apexcharts": "3.15.6",
-    "axios": "^0.21.3",
+    "axios": "^0.21.4",
     "bootstrap": "^5.1.0",
+    "browserslist": "^4.17.0",
+    "caniuse-lite": "^1.0.30001255",
     "clsx": "1.1.0",
     "framer-motion": "1.8.4",
     "google-map-react": "1.1.6",
@@ -41,8 +42,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "format": "./node_modules/.bin/eslint --fix --ignore-path .gitignore ."
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
